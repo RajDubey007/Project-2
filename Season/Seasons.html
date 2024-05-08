@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- <h2 class="ans"></h2> -->
+
+
+
+
+
+    <div class="container">
+    
+        <div class="logo">
+            <h2>Choose your favourite Season</h2>
+        </div> 
+
+        <div class="t1">
+            <h1></h1>
+        </div>
+
+        <div class="box-sec">
+
+            <div class="box p1">
+                <img src="img/winter.jpeg" alt="">
+                <div class="title"><h3> A :- &nbsp;  Winter</h3></div>
+            </div>
+            <div class="box p1">
+                <img src="img/images.jpeg" alt="">
+                <div class="title"><h3> B :- &nbsp;  Summer</h3></div>
+            </div>
+            <div class="box p1">
+                <img src="img/360_F_649798760_VgqSj0KRvNM2Szcp0S9c7nQ4uHRsr4NR.jpg" alt="">
+                <div class="title"><h3> C :- &nbsp; Monsoon</h3></div>
+            </div>
+           
+        </div>
+            <br><br><br>
+        <div class="box-sec s2 r2">
+            <h1>Your favourite Season Is :-</h1>
+        </div>
+        <div class="box-sec s2">
+            <div class="box p1">
+            
+                <div class="title t3">
+                    
+                        <h2 class="ans"></h2>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <script>
+        let choice = 1;
+    
+
+        switch (choice)
+        {
+            case 11 :
+            case 12 :
+            case 1  :
+            case 2  : document.querySelector(".ans").innerHTML = "Winter Season";
+                break;
+
+            case 3 :
+            case 4 :
+            case 5 :
+            case 6 :document.querySelector(".ans").innerHTML = "Summer Season";
+                break;
+
+            case 7 :
+            case 8 :
+            case 9 :
+            case 10 :document.querySelector(".ans").innerHTML = "Monsoon Season";
+                break;
+
+            default : document.querySelector(".ans").innerHTML = "Value Is Not Valid";
+            
+        }
+    </script>
+
+</body>
+</html>
+
